@@ -10,11 +10,11 @@ description: "Write an awesome description for your new site here. You can edit 
 people:
   - name: Jordan Beard
     pic: jordan
-    position: Lead software engineer
+    position: Lead Software Engineer
     social:      
       - title: github
         url: https://github.com/jordan-codemotive
-      - title: LinkedIn
+      - title: linkedin
         url: https://www.linkedin.com/in/beardjordan/
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
