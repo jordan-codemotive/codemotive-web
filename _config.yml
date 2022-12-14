@@ -1,8 +1,8 @@
 url: https://jordan-codemotive.github.io
-baseurl: /codemotive-web/
+baseurl: /codemotive-web
 
 # Site settings
-title: Codemotive
+title: codemotive
 email: jordan@codemotive.co.uk
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
@@ -10,7 +10,7 @@ description: "Write an awesome description for your new site here. You can edit 
 people:
   - name: Jordan Beard
     pic: jordan
-    position: Lead Software Engineer
+    position: Lead Software Developer
     social:      
       - title: github
         url: https://github.com/jordan-codemotive
