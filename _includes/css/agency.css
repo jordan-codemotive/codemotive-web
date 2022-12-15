@@ -11,7 +11,8 @@ body {
 }
 
 .text-muted {
-    color: #{{ site.data.template.color.muted }};
+    /* color: #{{ site.data.template.color.muted }}; */
+    color: white;
 }
 
 .text-primary {
@@ -51,8 +52,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-    text-transform: uppercase;
+h6 {    
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
 }
@@ -71,7 +71,6 @@ h6 {
 
 .btn-primary {
     border-color: #{{ site.data.template.color.primary }};
-    text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
     color: #fff;
@@ -122,7 +121,6 @@ fieldset[disabled] .btn-primary.active {
     padding: 20px 40px;
     border-color: #{{ site.data.template.color.primary }};
     border-radius: 3px;
-    text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
     font-weight: 700;
@@ -206,7 +204,6 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .nav li a {
-    text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 400;
     letter-spacing: 1px;
@@ -294,7 +291,6 @@ header .intro-text .intro-lead-in {
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 50px;
     font-weight: 700;
@@ -316,8 +312,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
-        text-transform: uppercase;
+        margin-bottom: 50px;        
         font-family: {{ site.data.template.font.primary }};
         font-size: 75px;
         font-weight: 700;
@@ -690,29 +685,25 @@ section#contact .form-control:focus {
     box-shadow: none;
 }
 
-section#contact::-webkit-input-placeholder {
-    text-transform: uppercase;
+section#contact::-webkit-input-placeholder {    
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-moz-placeholder {
-    text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact::-moz-placeholder {
-    text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-ms-input-placeholder {
-    text-transform: uppercase;
+section#contact:-ms-input-placeholder {    
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
     color: #bbb;
@@ -728,7 +719,6 @@ footer {
 }
 
 footer span.copyright {
-    text-transform: uppercase;
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
     line-height: 40px;
@@ -736,7 +726,6 @@ footer span.copyright {
 
 footer ul.quicklinks {
     margin-bottom: 0;
-    text-transform: uppercase;
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
     line-height: 40px;
