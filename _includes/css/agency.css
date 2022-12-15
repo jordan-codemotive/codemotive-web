@@ -11,8 +11,7 @@ body {
 }
 
 .text-muted {
-    /* color: #{{ site.data.template.color.muted }}; */
-    color: white;
+    color: #{{ site.data.template.color.muted }};    
 }
 
 .text-primary {
