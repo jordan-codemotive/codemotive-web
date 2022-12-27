@@ -228,6 +228,14 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.primary }};
 }
 
+@media(max-width:761px) {
+    .navbar-header {
+        height: 75px;
+        padding-top: 8px;
+    }
+}
+
+
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
