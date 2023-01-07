@@ -1,17 +1,17 @@
 url: https://jordan-codemotive.github.io
-baseurl: 
+baseurl:
 
 # Site settings
 title: codemotive
 email: jordan@codemotive.co.uk
-description: "We deliver elegant technical solutions to your business."
+description: "Welcome to codemotive, a leading provider of custom software development solutions using .NET. With 12 years of experience in the industry, we have a track record of delivering high-quality software solutions to clients in a variety of industries. Our process is collaborative, and we work closely with our clients to understand their unique needs and challenges."
 
 # Team names, titles and social links
 people:
   - name: Jordan Beard
     pic: jordan
     position: Lead Software Developer
-    social:      
+    social:
       - title: github
         url: https://github.com/jordan-codemotive
       - title: linkedin
